@@ -19,6 +19,8 @@ public class LoginPageTest {
 		String password = "Ntk-orange!admin.123";
 		String expPageTitle = "OrangeHRM";
 
+		
+		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
